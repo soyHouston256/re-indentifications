@@ -3,6 +3,6 @@ torchvision>=0.17
 numpy>=1.26
 h5py>=3.10
 scikit-learn>=1.4
-matplotlib>=3.8
 Pillow>=9.5
 scipy>=1.11
+threadpoolctl>=3.1

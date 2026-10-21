@@ -1,0 +1,139 @@
+{
+  "run": "night",
+  "completed_local": "2026-10-21 03:51:51 America/Lima",
+  "device": "mps",
+  "total_wall_seconds": 20249,
+  "selection": "mean validation mAP original and low_resolution; highest score, earliest tie",
+  "metrics_unit": "fraction; mAP_drop_pp in percentage points",
+  "variants": {
+    "full": {
+      "epochs_completed": 50,
+      "selected_epoch": 47,
+      "epoch_seconds": 7993.90301656723,
+      "validation": {
+        "original": {
+          "mAP": 0.819712245955347,
+          "Rank-1": 0.91,
+          "Rank-5": 0.97,
+          "Rank-10": 0.97,
+          "valid_queries": 100,
+          "total_queries": 100
+        },
+        "low_resolution": {
+          "mAP": 0.6003872640280167,
+          "Rank-1": 0.75,
+          "Rank-5": 0.92,
+          "Rank-10": 0.95,
+          "valid_queries": 100,
+          "total_queries": 100
+        },
+        "mAP_drop_pp": 21.93249819273303
+      },
+      "testing": {
+        "original": {
+          "mAP": 0.5977449735753513,
+          "Rank-1": 0.7963182897862233,
+          "Rank-5": 0.9135985748218527,
+          "Rank-10": 0.9423990498812351,
+          "valid_queries": 3368,
+          "total_queries": 3368
+        },
+        "low_resolution": {
+          "mAP": 0.3017584614885122,
+          "Rank-1": 0.45961995249406173,
+          "Rank-5": 0.6668646080760094,
+          "Rank-10": 0.7416864608076009,
+          "valid_queries": 3368,
+          "total_queries": 3368
+        },
+        "mAP_drop_pp": 29.598651208683908
+      }
+    },
+    "baseline": {
+      "epochs_completed": 50,
+      "selected_epoch": 50,
+      "epoch_seconds": 5724.894240140915,
+      "validation": {
+        "original": {
+          "mAP": 0.817306531722001,
+          "Rank-1": 0.91,
+          "Rank-5": 0.96,
+          "Rank-10": 0.97,
+          "valid_queries": 100,
+          "total_queries": 100
+        },
+        "low_resolution": {
+          "mAP": 0.6391016605393449,
+          "Rank-1": 0.77,
+          "Rank-5": 0.91,
+          "Rank-10": 0.97,
+          "valid_queries": 100,
+          "total_queries": 100
+        },
+        "mAP_drop_pp": 17.820487118265603
+      },
+      "testing": {
+        "original": {
+          "mAP": 0.620038903711271,
+          "Rank-1": 0.8153206650831354,
+          "Rank-5": 0.919833729216152,
+          "Rank-10": 0.9524940617577197,
+          "valid_queries": 3368,
+          "total_queries": 3368
+        },
+        "low_resolution": {
+          "mAP": 0.35220539040042376,
+          "Rank-1": 0.5190023752969121,
+          "Rank-5": 0.7033847980997625,
+          "Rank-10": 0.7752375296912114,
+          "valid_queries": 3368,
+          "total_queries": 3368
+        },
+        "mAP_drop_pp": 26.783351331084727
+      }
+    },
+    "no_mlcor": {
+      "epochs_completed": 50,
+      "selected_epoch": 46,
+      "epoch_seconds": 6070.759523391724,
+      "validation": {
+        "original": {
+          "mAP": 0.8039023355158571,
+          "Rank-1": 0.89,
+          "Rank-5": 0.97,
+          "Rank-10": 0.97,
+          "valid_queries": 100,
+          "total_queries": 100
+        },
+        "low_resolution": {
+          "mAP": 0.5945359944949316,
+          "Rank-1": 0.72,
+          "Rank-5": 0.88,
+          "Rank-10": 0.92,
+          "valid_queries": 100,
+          "total_queries": 100
+        },
+        "mAP_drop_pp": 20.936634102092555
+      },
+      "testing": {
+        "original": {
+          "mAP": 0.5945649920299267,
+          "Rank-1": 0.7945368171021377,
+          "Rank-5": 0.913895486935867,
+          "Rank-10": 0.9429928741092637,
+          "valid_queries": 3368,
+          "total_queries": 3368
+        },
+        "low_resolution": {
+          "mAP": 0.3382662147585294,
+          "Rank-1": 0.5056413301662708,
+          "Rank-5": 0.6989311163895487,
+          "Rank-10": 0.7752375296912114,
+          "valid_queries": 3368,
+          "total_queries": 3368
+        },
+        "mAP_drop_pp": 25.629877727139732
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "testing.h5": {
+    "size_bytes": 475648138,
+    "sha256": "9d6796de3b4fd4c91a21f544579e40a4fdace0deeaeee48dd2ec1a0b9cd3eaad",
+    "datasets": {
+      "gallery/camera_ids": {
+        "shape": [
+          19732
+        ],
+        "dtype": "uint8"
+      },
+      "gallery/image_ids": {
+        "shape": [
+          19732
+        ],
+        "dtype": "|S24"
+      },
+      "gallery/images": {
+        "shape": [
+          19732,
+          3,
+          128,
+          64
+        ],
+        "dtype": "uint8"
+      },
+      "gallery/person_ids": {
+        "shape": [
+          19732
+        ],
+        "dtype": "int32"
+      },
+      "query/camera_ids": {
+        "shape": [
+          3368
+        ],
+        "dtype": "uint8"
+      },
+      "query/image_ids": {
+        "shape": [
+          3368
+        ],
+        "dtype": "|S24"
+      },
+      "query/images": {
+        "shape": [
+          3368,
+          3,
+          128,
+          64
+        ],
+        "dtype": "uint8"
+      },
+      "query/images_low_resolution": {
+        "shape": [
+          3368,
+          3,
+          32,
+          16
+        ],
+        "dtype": "uint8"
+      },
+      "query/person_ids": {
+        "shape": [
+          3368
+        ],
+        "dtype": "int32"
+      }
+    }
+  },
+  "training.h5": {
+    "size_bytes": 227124285,
+    "sha256": "8eca95885bf3262725d971da2005516666dcf6a25e95111b2bef9f8019f8ad87",
+    "datasets": {
+      "camera_ids": {
+        "shape": [
+          11043
+        ],
+        "dtype": "uint8"
+      },
+      "image_ids": {
+        "shape": [
+          11043
+        ],
+        "dtype": "|S24"
+      },
+      "images": {
+        "shape": [
+          11043,
+          3,
+          128,
+          64
+        ],
+        "dtype": "uint8"
+      }
+    }
+  },
+  "validation.h5": {
+    "size_bytes": 39020636,
+    "sha256": "026c284af9cec39b6a814ee6722e187f06bce7dc9cfb6b3f351972355b0cc2d7",
+    "datasets": {
+      "gallery/camera_ids": {
+        "shape": [
+          1793
+        ],
+        "dtype": "uint8"
+      },
+      "gallery/image_ids": {
+        "shape": [
+          1793
+        ],
+        "dtype": "|S24"
+      },
+      "gallery/images": {
+        "shape": [
+          1793,
+          3,
+          128,
+          64
+        ],
+        "dtype": "uint8"
+      },
+      "gallery/person_ids": {
+        "shape": [
+          1793
+        ],
+        "dtype": "int32"
+      },
+      "query/camera_ids": {
+        "shape": [
+          100
+        ],
+        "dtype": "uint8"
+      },
+      "query/image_ids": {
+        "shape": [
+          100
+        ],
+        "dtype": "|S24"
+      },
+      "query/images": {
+        "shape": [
+          100,
+          3,
+          128,
+          64
+        ],
+        "dtype": "uint8"
+      },
+      "query/images_low_resolution": {
+        "shape": [
+          100,
+          3,
+          32,
+          16
+        ],
+        "dtype": "uint8"
+      },
+      "query/person_ids": {
+        "shape": [
+          100
+        ],
+        "dtype": "int32"
+      }
+    }
+  }
+}
