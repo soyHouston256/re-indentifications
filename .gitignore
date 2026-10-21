@@ -1,0 +1,25 @@
+# Local environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Data, experiment artifacts and binary documents never belong in this repo
+datos/
+dataset/
+resultados/
+outputs/
+output/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pdf
+*.ppt
+*.pptx
+*.zip
